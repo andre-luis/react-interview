@@ -14,14 +14,9 @@ export default function Timer() {
   }, []);
 
   return (
-    <div style={{ 
-      padding: '20px', 
-      fontSize: '24px', 
-      fontWeight: 'bold',
-      textAlign: 'center'
-    }}>
-      <h2 style={{ marginBottom: '20px' }}>Timer</h2>
-      <div>Counter: {counter}</div>
+    <div className="component-container">
+      <h2 className="component-heading">Timer</h2>
+      <div className="timer-display">Counter: {counter}</div>
     </div>
   );
 }

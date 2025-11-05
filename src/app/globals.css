@@ -11,3 +11,117 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Layout styles */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav {
+  background-color: #1f2937;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4b5563;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.nav-button.active {
+  background-color: #3b82f6;
+  font-weight: bold;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f3f4f6;
+}
+
+.content-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+}
+
+/* Component styles */
+.component-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.component-heading {
+  margin-bottom: 20px;
+}
+
+/* Timer styles */
+.timer-display {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Buttons styles */
+.button-component {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-blue {
+  background-color: #3b82f6;
+}
+
+.button-green {
+  background-color: #10b981;
+}
+
+.button-orange {
+  background-color: #f59e0b;
+}
+
+/* Form styles */
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.form-submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
